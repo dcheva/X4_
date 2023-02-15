@@ -9,23 +9,23 @@
   <colorcorrection>0</colorcorrection>
   <gamma>1.00</gamma>
   <capturehq>false</capturehq>
-  <gfxquality>3</gfxquality>
+  <gfxquality>2</gfxquality>
   <!-- high gfx preset -->
-  <shaderquality>2</shaderquality>
-  <shadows>2</shadows>
-  <softshadows>true</softshadows>
-  <ssao>2</ssao>
-  <glow>3</glow>
-  <lodfactor>0.50</lodfactor>
-  <effectdistance>0.50</effectdistance>
-  <distortion>true</distortion>
+  <shaderquality>1</shaderquality>
+  <shadows>0</shadows>
+  <softshadows>false</softshadows>
+  <ssao>0</ssao>
+  <glow>1</glow>
+  <lodfactor>0.25</lodfactor>
+  <effectdistance>0.30</effectdistance>
+  <distortion>false</distortion>
   <disableradar>false</disableradar>
   <radarquality>1</radarquality>
   <ssr>false</ssr>
   <ssrquality>low</ssrquality>
-  <texturequality>high</texturequality>
+  <texturequality>medium</texturequality>
   <chromaticaberration>true</chromaticaberration>
-  <volumetric>2</volumetric>
+  <volumetric>1</volumetric>
   <!-- sound options -->
   <nosound>false</nosound>
   <volumetotal>1.00</volumetotal>
@@ -79,7 +79,7 @@
   <trafficdensity>0.50</trafficdensity>
   <res_width>1920</res_width>
   <res_height>1080</res_height>
-  <sounddevice>OpenAL Soft on Line 1 (Virtual Audio Cable)</sounddevice>
+  <sounddevice/>
   <compress>true</compress>
   <uiscale>1.0</uiscale>
 </root>

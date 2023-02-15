@@ -2,58 +2,58 @@
 <uidata version="1">
   <data environment="menus">
 __CORE_CHAT_WINDOW = {
-[&quot;openUponStart&quot;]=false,
-[&quot;version&quot;]=1.000000,}
+[&quot;version&quot;]=1.000000,
+[&quot;openUponStart&quot;]=false,}
 
 __CORE_DEBUGLOG_LOG = {
+[&quot;version&quot;]=4.000000,
 [&quot;data&quot;]={
-[1.000000]={
-[&quot;message&quot;]=&quot;Info: 'NVIDIA GeForce GTX 1660' NVIDIA-driver v526.47.0 (Vulkan 1.3.224) check=1&quot;,
-[&quot;gamestart&quot;]=1.000000,
-[&quot;timestamp&quot;]=1675325971.000000,},
 [2.000000]={
 [&quot;message&quot;]=&quot;Info: 'NVIDIA GeForce GTX 1660' NVIDIA-driver v526.47.0 (Vulkan 1.3.224) check=1&quot;,
 [&quot;gamestart&quot;]=2.000000,
 [&quot;timestamp&quot;]=1675326476.000000,},
-[3.000000]={
-[&quot;message&quot;]=&quot;Info: 'NVIDIA GeForce GTX 1660' NVIDIA-driver v528.24.0 (Vulkan 1.3.224) check=1&quot;,
-[&quot;gamestart&quot;]=3.000000,
-[&quot;timestamp&quot;]=1676458677.000000,},
-[4.000000]={
-[&quot;message&quot;]=&quot;Error: [XLib::TextDB::ConvertTextDBString] Warning: Found unmatched closing comment bracket in text: 20104-120102&quot;,
-[&quot;gamestart&quot;]=4.000000,
-[&quot;timestamp&quot;]=1676458978.000000,},
 [5.000000]={
 [&quot;message&quot;]=&quot;Error: [XLib::TextDB::ConvertTextDBString] Warning: Found unmatched closing comment bracket in text: 20104-130102&quot;,
 [&quot;gamestart&quot;]=4.000000,
 [&quot;timestamp&quot;]=1676458978.000000,},
+[4.000000]={
+[&quot;message&quot;]=&quot;Error: [XLib::TextDB::ConvertTextDBString] Warning: Found unmatched closing comment bracket in text: 20104-120102&quot;,
+[&quot;gamestart&quot;]=4.000000,
+[&quot;timestamp&quot;]=1676458978.000000,},
+[9.000000]={
+[&quot;message&quot;]=&quot;Info: 'NVIDIA GeForce GTX 1660' NVIDIA-driver v528.24.0 (Vulkan 1.3.224) check=1&quot;,
+[&quot;gamestart&quot;]=5.000000,
+[&quot;timestamp&quot;]=1676460815.000000,},
+[8.000000]={
+[&quot;message&quot;]=&quot;Error: [XLib::TextDB::ConvertTextDBString] Warning: Found unmatched closing comment bracket in text: 20104-130102&quot;,
+[&quot;gamestart&quot;]=5.000000,
+[&quot;timestamp&quot;]=1676460814.000000,},
+[3.000000]={
+[&quot;message&quot;]=&quot;Info: 'NVIDIA GeForce GTX 1660' NVIDIA-driver v528.24.0 (Vulkan 1.3.224) check=1&quot;,
+[&quot;gamestart&quot;]=3.000000,
+[&quot;timestamp&quot;]=1676458677.000000,},
+[7.000000]={
+[&quot;message&quot;]=&quot;Error: [XLib::TextDB::ConvertTextDBString] Warning: Found unmatched closing comment bracket in text: 20104-120102&quot;,
+[&quot;gamestart&quot;]=5.000000,
+[&quot;timestamp&quot;]=1676460814.000000,},
+[1.000000]={
+[&quot;message&quot;]=&quot;Info: 'NVIDIA GeForce GTX 1660' NVIDIA-driver v526.47.0 (Vulkan 1.3.224) check=1&quot;,
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1675325971.000000,},
 [6.000000]={
 [&quot;message&quot;]=&quot;Info: 'NVIDIA GeForce GTX 1660' NVIDIA-driver v528.24.0 (Vulkan 1.3.224) check=1&quot;,
 [&quot;gamestart&quot;]=4.000000,
 [&quot;timestamp&quot;]=1676458979.000000,},},
 [&quot;lastClear&quot;]={
-[&quot;minor&quot;]=10.000000,
-[&quot;major&quot;]=5.000000,},
-[&quot;version&quot;]=4.000000,}
+[&quot;major&quot;]=5.000000,
+[&quot;minor&quot;]=10.000000,},}
 
 __CORE_DETAILMONITOR_MAPFILTER = {
+[&quot;trade_playeroffer_buy&quot;]=0.000000,
 [&quot;layer_other&quot;]=true,
 [&quot;think_diplomacy_factioncolor&quot;]=false,
 [&quot;other_misc_selection_lines&quot;]=true,
 [&quot;other_misc_missions&quot;]=true,
-[&quot;trade_storage_solid&quot;]=true,
-[&quot;other_misc_rendersatelliteradarrange&quot;]=true,
-[&quot;trade_price_maxprice&quot;]=0.000000,
-[&quot;other_misc_gate_connections&quot;]=false,
-[&quot;version&quot;]=20.000000,
-[&quot;trade_relation_enemy&quot;]=true,
-[&quot;other_misc_coveroverride&quot;]=false,
-[&quot;trade_playeroffer_sell&quot;]=0.000000,
-[&quot;trade_playeroffer_buy&quot;]=0.000000,
-[&quot;other_misc_wrecks&quot;]=true,
-[&quot;other_misc_allyorderqueue&quot;]=true,
-[&quot;trade_volume&quot;]=0.000000,
-[&quot;trade_offer_number&quot;]=3.000000,
 [&quot;other_misc_civilian&quot;]=true,
 [&quot;mining_resource_display&quot;]=true,
 [&quot;trade_storage_container&quot;]=true,
@@ -69,20 +69,32 @@ __CORE_DETAILMONITOR_MAPFILTER = {
 [&quot;trade_storage_condensate&quot;]=true,
 [&quot;trade_storage_liquid&quot;]=true,
 [&quot;layer_trade&quot;]=true,
-[&quot;layer_mining&quot;]=true,}
+[&quot;layer_mining&quot;]=true,
+[&quot;other_misc_wrecks&quot;]=true,
+[&quot;other_misc_allyorderqueue&quot;]=true,
+[&quot;trade_volume&quot;]=0.000000,
+[&quot;trade_offer_number&quot;]=3.000000,
+[&quot;version&quot;]=20.000000,
+[&quot;trade_storage_solid&quot;]=true,
+[&quot;other_misc_rendersatelliteradarrange&quot;]=true,
+[&quot;trade_price_maxprice&quot;]=0.000000,
+[&quot;other_misc_gate_connections&quot;]=false,
+[&quot;trade_relation_enemy&quot;]=true,
+[&quot;other_misc_coveroverride&quot;]=false,
+[&quot;trade_playeroffer_sell&quot;]=0.000000,}
 __CORE_DETAILMONITOR_USERQUESTION = {
 [&quot;version&quot;]=1.000000,}
 __CORE_DETAILMONITOR_STATIONBUILD = {
+[&quot;environment&quot;]=true,
 [&quot;discreteanglestep&quot;]=15.000000,
 [&quot;version&quot;]=1.000000,
-[&quot;environment&quot;]=true,
 [&quot;moduleoverlap&quot;]=false,}
 
 __CORE_GAMEOPTIONS_RESTOREINFO = {
 [&quot;history&quot;]={
 [1.000000]={
-[&quot;selectedOption&quot;]=&quot;new&quot;,
 [&quot;optionParameter&quot;]=&quot;main&quot;,
+[&quot;selectedOption&quot;]=&quot;new&quot;,
 [&quot;topRow&quot;]=2.000000,},},}
 </data>
 </uidata>

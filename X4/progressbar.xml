@@ -9,16 +9,16 @@
     <step name="jobs" duration="5.25034"/>
     <step name="starting" duration="3.50495"/>
   </type>
-  <type name="savedgame">
-    <step name="init" duration="3.5"/>
-    <step name="map" duration="20"/>
-    <step name="scripts" duration="2.5"/>
-    <step name="init2" duration="0.2"/>
-    <step name="map2" duration="8"/>
-    <step name="economylog" duration="1"/>
-    <step name="scripts2" duration="2.5"/>
-    <step name="patch" duration="0.1"/>
-    <step name="scripts3" duration="2.8"/>
-    <step name="jobs" duration="0.3"/>
+  <type name="savedgame" loaded="1">
+    <step name="init" duration="4.30129"/>
+    <step name="map" duration="18.2199"/>
+    <step name="scripts" duration="4.06895"/>
+    <step name="init2" duration="0.285475"/>
+    <step name="map2" duration="47.6463"/>
+    <step name="economylog" duration="0.554275"/>
+    <step name="scripts2" duration="3.48004"/>
+    <step name="patch" duration="0.0513127"/>
+    <step name="scripts3" duration="2.7538"/>
+    <step name="jobs" duration="2.27657"/>
   </type>
 </progressbar>
