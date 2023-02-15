@@ -3,29 +3,29 @@
   <!-- graphic options -->
   <fullscreen>true</fullscreen>
   <borderless>false</borderless>
-  <antialiasing>none</antialiasing>
+  <antialiasing>fxaa_low</antialiasing>
   <upmode>none</upmode>
   <presentmode>immediate</presentmode>
   <colorcorrection>0</colorcorrection>
   <gamma>1.00</gamma>
   <capturehq>false</capturehq>
-  <gfxquality>2</gfxquality>
+  <gfxquality>0</gfxquality>
   <!-- high gfx preset -->
   <shaderquality>1</shaderquality>
   <shadows>0</shadows>
-  <softshadows>false</softshadows>
+  <softshadows>true</softshadows>
   <ssao>0</ssao>
   <glow>1</glow>
   <lodfactor>0.25</lodfactor>
   <effectdistance>0.30</effectdistance>
-  <distortion>false</distortion>
+  <distortion>true</distortion>
   <disableradar>false</disableradar>
   <radarquality>1</radarquality>
   <ssr>false</ssr>
   <ssrquality>low</ssrquality>
   <texturequality>medium</texturequality>
   <chromaticaberration>true</chromaticaberration>
-  <volumetric>1</volumetric>
+  <volumetric>2</volumetric>
   <!-- sound options -->
   <nosound>false</nosound>
   <volumetotal>1.00</volumetotal>
@@ -41,7 +41,7 @@
   <toggleboost2>false</toggleboost2>
   <togglemouselook>false</togglemouselook>
   <rumbleintensity>1.00</rumbleintensity>
-  <aimassist>true</aimassist>
+  <aimassist>1</aimassist>
   <collisionassist>true</collisionassist>
   <controlmodemessages>true</controlmodemessages>
   <radarmode>false</radarmode>

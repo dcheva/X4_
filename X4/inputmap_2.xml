@@ -17,11 +17,11 @@
     <param name="invert_fp_mouse_pitch" value="false"/>
     <param name="sensitivity_fp_yaw" value="0.50"/>
     <param name="sensitivity_fp_pitch" value="0.50"/>
-    <param name="sensitivity_fp_mouse_yaw" value="0.50"/>
-    <param name="sensitivity_fp_mouse_pitch" value="0.50"/>
-    <param name="sensitivity_direct_mouse_steering_yaw" value="0.50"/>
-    <param name="sensitivity_direct_mouse_steering_pitch" value="0.50"/>
-    <param name="sensitivity_direct_mouse_steering_roll" value="0.50"/>
+    <param name="sensitivity_fp_mouse_yaw" value="0.75"/>
+    <param name="sensitivity_fp_mouse_pitch" value="0.75"/>
+    <param name="sensitivity_direct_mouse_steering_yaw" value="0.75"/>
+    <param name="sensitivity_direct_mouse_steering_pitch" value="0.75"/>
+    <param name="sensitivity_direct_mouse_steering_roll" value="0.75"/>
     <param name="allow_mouse_vr_pointer" value="true"/>
     <param name="sensitivity_vr_mouse_yaw" value="0.50"/>
     <param name="sensitivity_vr_mouse_pitch" value="0.50"/>
@@ -148,6 +148,7 @@
   <action id="INPUT_ACTION_PLAY_CUTSCENE" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_B"/>
   <action id="INPUT_ACTION_PAUSE" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_PAUSE"/>
   <action id="INPUT_ACTION_STOP" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_BACK"/>
+  <action id="INPUT_ACTION_STOP" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_Z_SHIFT"/>
   <action id="INPUT_ACTION_EXECUTE_NOTIFICATION" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_F"/>
   <action id="INPUT_ACTION_EXECUTE_NOTIFICATION" source="INPUT_SOURCE_JOYBUTTONS" code="INPUT_XBUTTON_A"/>
   <action id="INPUT_ACTION_EXECUTE_NOTIFICATION" source="INPUT_SOURCE_OCULUS_TOUCH_BUTTONS" code="INPUT_XBUTTON_A"/>
@@ -281,7 +282,7 @@
   <action id="INPUT_ACTION_OPEN_PLAYERSHIP_INFO" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_RETURN_SHIFT"/>
   <action id="INPUT_ACTION_OPEN_COCKPIT_MENU" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_RETURN"/>
   <action id="INPUT_ACTION_OPEN_COCKPIT_MENU" source="INPUT_SOURCE_JOYBUTTONS" code="INPUT_XBUTTON_X"/>
-  <action id="INPUT_ACTION_CYCLE_VIEW" source="INPUT_SOURCE_JOYBUTTONS" code="INPUT_XBUTTON_BACK"/>
+  <action id="INPUT_ACTION_CYCLE_VIEW" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_NUMPADENTER"/>
   <action id="INPUT_ACTION_TOGGLE_GUIDANCE" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_G_SHIFT"/>
   <action id="INPUT_ACTION_HELP" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_H"/>
   <action id="INPUT_ACTION_CYCLE_NEXT_ACTIVE_WEAPON_AMMO" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_K"/>
@@ -325,8 +326,8 @@
   <state id="INPUT_STATE_DIALOG_MENU" source="INPUT_SOURCE_VIVE_RIGHT_BUTTONS" code="INPUT_XBUTTON_DPAD_UP"/>
   <state id="INPUT_STATE_STEER_LEFT" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_LEFT"/>
   <state id="INPUT_STATE_STEER_RIGHT" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_RIGHT"/>
-  <state id="INPUT_STATE_STEER_UP" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_DOWN"/>
-  <state id="INPUT_STATE_STEER_DOWN" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_UP"/>
+  <state id="INPUT_STATE_STEER_UP" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_UP"/>
+  <state id="INPUT_STATE_STEER_DOWN" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_DOWN"/>
   <state id="INPUT_STATE_STRAFE_LEFT" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_A"/>
   <state id="INPUT_STATE_STRAFE_RIGHT" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_D"/>
   <state id="INPUT_STATE_STRAFE_UP" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_W"/>
@@ -412,7 +413,6 @@
   <state id="INPUT_STATE_MOUSECLICK" source="INPUT_SOURCE_EMULATEDMOUSEBUTTONS" code="INPUT_MOUSEBUTTON_LEFT"/>
   <state id="INPUT_STATE_MOUSECLICK" source="INPUT_SOURCE_MOUSEBUTTONS" code="INPUT_MOUSEBUTTON_LEFT"/>
   <state id="INPUT_STATE_MOUSECLICK" source="INPUT_SOURCE_VRBUTTONS" code="INPUT_MOUSEBUTTON_LEFT"/>
-  <state id="INPUT_STATE_FIRE_PRIMARY_WEAPON_AT_CURSOR" source="INPUT_SOURCE_MOUSEBUTTONS" code="INPUT_MOUSEBUTTON_MIDDLE"/>
   <state id="INPUT_STATE_FIRE_PRIMARY_WEAPON_AT_CURSOR" source="INPUT_SOURCE_MOUSEBUTTONS" code="INPUT_MOUSEBUTTON_LEFT_RIGHT"/>
   <state id="INPUT_STATE_DETAILMONITOR_A" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_RETURN"/>
   <state id="INPUT_STATE_DETAILMONITOR_A" source="INPUT_SOURCE_JOYBUTTONS" code="INPUT_XBUTTON_A"/>
@@ -446,7 +446,7 @@
   <state id="INPUT_STATE_LOOTMAGNET" source="INPUT_SOURCE_JOYBUTTONS" code="INPUT_XBUTTON_RIGHT_THUMB"/>
   <state id="INPUT_STATE_LOOTMAGNET" source="INPUT_SOURCE_OCULUS_TOUCH_BUTTONS" code="INPUT_XBUTTON_RIGHT_THUMB"/>
   <state id="INPUT_STATE_LOOTMAGNET" source="INPUT_SOURCE_VIVE_RIGHT_BUTTONS" code="INPUT_XBUTTON_18"/>
-  <state id="INPUT_STATE_CAMERA_MOUSELOOK" source="INPUT_SOURCE_MOUSEBUTTONS" code="INPUT_MOUSEBUTTON_MIDDLE_SHIFT"/>
+  <state id="INPUT_STATE_CAMERA_MOUSELOOK" source="INPUT_SOURCE_MOUSEBUTTONS" code="INPUT_MOUSEBUTTON_MIDDLE"/>
   <state id="INPUT_STATE_3DPOINTER_ACTIVE" source="INPUT_SOURCE_OCULUS_TOUCH_BUTTONS" code="INPUT_XBUTTON_15"/>
   <state id="INPUT_STATE_3DPOINTER_ACTIVE" source="INPUT_SOURCE_OCULUS_TOUCH_BUTTONS" code="INPUT_XBUTTON_14"/>
   <state id="INPUT_STATE_3DPOINTER_LBUTTON" source="INPUT_SOURCE_OCULUS_TOUCH_BUTTONS" code="INPUT_XBUTTON_A"/>
@@ -464,7 +464,7 @@
   <state id="INPUT_STATE_MAP_PAN_TO_ROTATE" source="INPUT_SOURCE_JOYBUTTONS" toggle="1" code="INPUT_XBUTTON_LEFT_THUMB"/>
   <state id="INPUT_STATE_WIDGET_INTERACT" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_RETURN_CONTROL"/>
   <state id="INPUT_STATE_WIDGET_INTERACT" source="INPUT_SOURCE_JOYBUTTONS" code="INPUT_XBUTTON_X"/>
-  <state id="INPUT_STATE_DETAILMONITOR_RESET_VIEW" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_R"/>
+  <state id="INPUT_STATE_DETAILMONITOR_RESET_VIEW" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_NUMPADENTER"/>
   <state id="INPUT_STATE_WIDGET_REMOVE_NEXT_CHAR" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_DELETE"/>
   <state id="INPUT_STATE_WIDGET_SCROLL_LEFT_CTRL" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_LEFT_CONTROL"/>
   <state id="INPUT_STATE_WIDGET_SCROLL_RIGHT_CTRL" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_RIGHT_CONTROL"/>
