@@ -43,7 +43,7 @@
   <rumbleintensity>1.00</rumbleintensity>
   <aimassist>1</aimassist>
   <collisionassist>true</collisionassist>
-  <controlmodemessages>true</controlmodemessages>
+  <controlmodemessages>false</controlmodemessages>
   <radarmode>false</radarmode>
   <stopshipinmenu>true</stopshipinmenu>
   <forceshootatcursor>false</forceshootatcursor>
