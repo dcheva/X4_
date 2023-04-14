@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uidata version="1">
+  <data environment="menus">
+__CORE_CHAT_WINDOW = {
+[&quot;openUponStart&quot;]=false,
+[&quot;version&quot;]=1.000000,}
+
+__CORE_DEBUGLOG_LOG = {
+[&quot;version&quot;]=4.000000,
+[&quot;data&quot;]={
+[2.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475407.000000,
+[&quot;message&quot;]=&quot;Error: [XLib::TextDB::ConvertTextDBString] Warning: Found unmatched closing comment bracket in text: 20101-13611&quot;,},
+[31.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\aiscripts\\order.slan.sheat.recall.unit.xml.sig'&quot;,},
+[11.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: Property lookup failed: ware.marine_argon_mk2&quot;,},
+[27.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\aiscripts\\order.move.wait.xml.sig'&quot;,},
+[9.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: Property lookup failed: ware.marine_argon_mk1&quot;,},
+[23.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\aiscripts\\move.undock.xml.sig'&quot;,},
+[19.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\md\\slan_cheat_modify_ship_subject.xml.sig'&quot;,},
+[1.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475407.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\t\\0001-l007.xml.sig'&quot;,},
+[40.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475657.000000,
+[&quot;message&quot;]=&quot;Error: LIBXML2: (null) line 0, error 1516: xmlNewTextWriterFilename : cannot open uri\
+&quot;,},
+[32.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475800.000000,
+[&quot;message&quot;]=&quot;Error: LIBXML2: (null) line 0, error 1515: Invalid argumentpersonal:///userdata.xml?ext=&quot;,},
+[28.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\aiscripts\\order.slan.sheat.dock.wait.xml.sig'&quot;,},
+[24.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\aiscripts\\move.unpark.xml.sig'&quot;,},
+[33.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475804.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.X4Ep1_War_Subscriptions.CalculateThreads&lt;inst:135790&gt;: Property lookup failed: $EnemyGoals.{10}\
+* Expression: $EnemyGoals.{$gwf_k}.$Target.iscontested\
+* Action: &lt;do_elseif&gt;, line 8696&quot;,},
+[20.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\md\\slan_cheat_modify_station_subject.xml.sig'&quot;,},
+[46.000000]={
+[&quot;gamestart&quot;]=2.000000,
+[&quot;timestamp&quot;]=1681479020.000000,
+[&quot;message&quot;]=&quot;Info: 'NVIDIA GeForce GTX 1660' NVIDIA-driver v531.41.0 (Vulkan 1.3.236) check=1&quot;,},
+[16.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\md\\slan_cheat_menu.xml.sig'&quot;,},
+[38.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475799.000000,
+[&quot;message&quot;]=&quot;Error: LIBXML2: (null) line 0, error 1515: Invalid argumentpersonal:///progressbar.xml?ext=&quot;,},
+[14.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: extensions\\slan_cheat\\md\\slan_cheat_database.xml(192): Warning while parsing expression: Property lookup failed\
+* Input: ware.marine_argon_mk3\
+* Pos:        ^^^^^^^^^^^^^^^^&quot;,},
+[12.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: extensions\\slan_cheat\\md\\slan_cheat_database.xml(191): Warning while parsing expression: Property lookup failed\
+* Input: ware.marine_argon_mk2\
+* Pos:        ^^^^^^^^^^^^^^^^&quot;,},
+[45.000000]={
+[&quot;gamestart&quot;]=2.000000,
+[&quot;timestamp&quot;]=1681479016.000000,
+[&quot;message&quot;]=&quot;Error: [XLib::TextDB::ConvertTextDBString] Warning: Found unmatched closing comment bracket in text: 20104-130102&quot;,},
+[10.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: extensions\\slan_cheat\\md\\slan_cheat_database.xml(190): Warning while parsing expression: Property lookup failed\
+* Input: ware.marine_argon_mk1\
+* Pos:        ^^^^^^^^^^^^^^^^&quot;,},
+[37.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475930.000000,
+[&quot;message&quot;]=&quot;Error: SetConfigSetting(): Failed to save config file.&quot;,},
+[35.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475930.000000,
+[&quot;message&quot;]=&quot;Error: C:\\dev\\p1_hotfix\\src\\X4\\ui\\core\\xanark\\anarkviewbridge.cpp(100): Warning. The current frame was already updated without processing the update event. Check for errors in addon scripts issuing too many update calls.\
+(version: 5.10 - Code revision: 479084)&quot;,},
+[8.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\md\\slan_cheat_database.xml.sig'&quot;,},
+[44.000000]={
+[&quot;gamestart&quot;]=2.000000,
+[&quot;timestamp&quot;]=1681479016.000000,
+[&quot;message&quot;]=&quot;Error: [XLib::TextDB::ConvertTextDBString] Warning: Found unmatched closing comment bracket in text: 20104-120102&quot;,},
+[43.000000]={
+[&quot;gamestart&quot;]=2.000000,
+[&quot;timestamp&quot;]=1681479016.000000,
+[&quot;message&quot;]=&quot;Error: [XLib::TextDB::ConvertTextDBString] Warning: Found unmatched closing comment bracket in text: 20101-13611&quot;,},
+[7.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\md\\slan_cheat_create_global_variables.xml.sig'&quot;,},
+[17.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\md\\slan_cheat_menu_quick_menu.xml.sig'&quot;,},
+[41.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475657.000000,
+[&quot;message&quot;]=&quot;Error: Failed to save UI userdata. Data might be lost.&quot;,},
+[6.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\md\\slan_cheat_add_ship_subject.xml.sig'&quot;,},
+[39.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475657.000000,
+[&quot;message&quot;]=&quot;Error: LIBXML2: (null) line 0, error 1515: Invalid argumentpersonal:///uidata.xml?ext=&quot;,},
+[36.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475930.000000,
+[&quot;message&quot;]=&quot;Error: LIBXML2: (null) line 0, error 1515: Invalid argumentpersonal:///config.xml?ext=&quot;,},
+[5.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475413.000000,
+[&quot;message&quot;]=&quot;Info: 'NVIDIA GeForce GTX 1660' NVIDIA-driver v531.41.0 (Vulkan 1.3.236) check=1&quot;,},
+[34.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475804.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.X4Ep1_War_Subscriptions.CalculateThreads&lt;inst:135790&gt;: Property lookup failed: $EnemyGoals.{10}\
+* Expression: $WarFrontTable.$OtherSectors.{$EnemyGoals.{$gwf_k}.$Target}?\
+* Action: &lt;do_elseif&gt;, line 8708&quot;,},
+[30.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\aiscripts\\order.slan.sheat.move.wait.xml.sig'&quot;,},
+[4.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475407.000000,
+[&quot;message&quot;]=&quot;Error: [XLib::TextDB::ConvertTextDBString] Warning: Found unmatched closing comment bracket in text: 20104-130102&quot;,},
+[29.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\aiscripts\\order.slan.sheat.move.wait.object.xml.sig'&quot;,},
+[26.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\aiscripts\\order.move.wait.object.xml.sig'&quot;,},
+[22.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\md\\slan_cheat_public_common.xml.sig'&quot;,},
+[25.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\aiscripts\\order.dock.wait.xml.sig'&quot;,},
+[21.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\md\\slan_cheat_modify_universe_subject.xml.sig'&quot;,},
+[3.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475407.000000,
+[&quot;message&quot;]=&quot;Error: [XLib::TextDB::ConvertTextDBString] Warning: Found unmatched closing comment bracket in text: 20104-120102&quot;,},
+[18.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\md\\slan_cheat_modify_player_subject.xml.sig'&quot;,},
+[42.000000]={
+[&quot;gamestart&quot;]=2.000000,
+[&quot;timestamp&quot;]=1681479016.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\t\\0001-l007.xml.sig'&quot;,},
+[15.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: File I/O: Could not find file '.\\extensions\\slan_cheat\\md\\slan_cheat_jump_subject.xml.sig'&quot;,},
+[13.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;timestamp&quot;]=1681475766.000000,
+[&quot;message&quot;]=&quot;Error: Property lookup failed: ware.marine_argon_mk3&quot;,},},
+[&quot;lastClear&quot;]={
+[&quot;minor&quot;]=10.000000,
+[&quot;major&quot;]=5.000000,},}
+
+__CORE_DETAILMONITOR_MAPFILTER = {
+[&quot;trade_relation_enemy&quot;]=true,
+[&quot;other_misc_selection_lines&quot;]=true,
+[&quot;trade_playeroffer_sell&quot;]=0.000000,
+[&quot;trade_playeroffer_buy&quot;]=0.000000,
+[&quot;other_misc_wrecks&quot;]=true,
+[&quot;other_misc_allyorderqueue&quot;]=true,
+[&quot;trade_volume&quot;]=0.000000,
+[&quot;trade_offer_number&quot;]=3.000000,
+[&quot;other_misc_civilian&quot;]=true,
+[&quot;mining_resource_display&quot;]=true,
+[&quot;trade_storage_container&quot;]=true,
+[&quot;layer_think&quot;]=true,
+[&quot;other_misc_opacity&quot;]=false,
+[&quot;think_diplomacy_factioncolor&quot;]=false,
+[&quot;think_alert&quot;]=1.000000,
+[&quot;other_misc_coveroverride&quot;]=false,
+[&quot;other_misc_orderqueue&quot;]=true,
+[&quot;layer_diplo&quot;]=false,
+[&quot;layer_build&quot;]=false,
+[&quot;layer_trade&quot;]=false,
+[&quot;other_misc_missions&quot;]=true,
+[&quot;trade_storage_condensate&quot;]=true,
+[&quot;trade_storage_liquid&quot;]=true,
+[&quot;trade_storage_solid&quot;]=true,
+[&quot;layer_mining&quot;]=false,
+[&quot;layer_fight&quot;]=false,
+[&quot;other_misc_ecliptic&quot;]=true,
+[&quot;version&quot;]=20.000000,
+[&quot;layer_other&quot;]=true,
+[&quot;think_diplomacy_highlightvisitor&quot;]=true,
+[&quot;other_misc_rendersatelliteradarrange&quot;]=true,
+[&quot;trade_price_maxprice&quot;]=0.000000,
+[&quot;other_misc_gate_connections&quot;]=false,}
+__CORE_DETAILMONITOR_USERQUESTION = {
+[&quot;modified&quot;]=true,
+[&quot;version&quot;]=1.000000,}
+__CORE_DETAILMONITOR_STATIONBUILD = {
+[&quot;version&quot;]=1.000000,
+[&quot;environment&quot;]=true,
+[&quot;discreteanglestep&quot;]=15.000000,
+[&quot;moduleoverlap&quot;]=false,}
+
+__CORE_GAMEOPTIONS_RESTOREINFO = {}
+</data>
+</uidata>
