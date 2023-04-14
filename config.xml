@@ -37,7 +37,7 @@
   <!-- game options -->
   <subtitles>true</subtitles>
   <autosave>true</autosave>
-  <autoroll>true</autoroll>
+  <autoroll>false</autoroll>
   <toggleboost2>false</toggleboost2>
   <togglemouselook>false</togglemouselook>
   <rumbleintensity>1.00</rumbleintensity>
