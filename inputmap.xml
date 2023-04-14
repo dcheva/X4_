@@ -26,8 +26,8 @@
     <param name="sensitivity_vr_mouse_yaw" value="0.50"/>
     <param name="sensitivity_vr_mouse_pitch" value="0.50"/>
     <param name="deadzone" value="50"/>
-    <param name="stick_steering_adaptive" value="false"/>
-    <param name="mouse_steering_adaptive" value="false"/>
+    <param name="stick_steering_adaptive" value="true"/>
+    <param name="mouse_steering_adaptive" value="true"/>
     <param name="yaw_into_roll" value="0"/>
   </config>
   <!-- input actions -->
@@ -298,6 +298,7 @@
   <action id="INPUT_ACTION_ADDON_HELPTEXT_CLOSE" source="INPUT_SOURCE_VIVE_RIGHT_BUTTONS" code="INPUT_XBUTTON_DPAD_RIGHT"/>
   <action id="INPUT_ACTION_ADDON_HELPTEXT_CLOSE" source="INPUT_SOURCE_VIVE_LEFT_BUTTONS" code="INPUT_XBUTTON_DPAD_RIGHT"/>
   <action id="INPUT_ACTION_SCAN_ACTION" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_F_SHIFT"/>
+  <action id="INPUT_ACTION_TOGGLEAUTOROLL" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_N_CONTROL"/>
   <action id="INPUT_ACTION_ADDON_DETAILMONITOR_MULTIVERSE" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_M_CONTROL"/>
   <action id="INPUT_ACTION_CUT" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_X_CONTROL"/>
   <action id="INPUT_ACTION_CUT" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_DELETE_SHIFT"/>
