@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <!-- graphic options -->
-  <fullscreen>true</fullscreen>
-  <borderless>false</borderless>
+  <fullscreen>false</fullscreen>
+  <borderless>true</borderless>
   <antialiasing>fxaa_low</antialiasing>
   <upmode>none</upmode>
   <presentmode>immediate</presentmode>
