@@ -3,3 +3,4 @@
 *.bin
 /save
 /save/*
+!/save/quicksave*
