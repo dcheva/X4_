@@ -29,7 +29,7 @@
   <!-- sound options -->
   <nosound>false</nosound>
   <volumetotal>1.00</volumetotal>
-  <volumemusic>1.00</volumemusic>
+  <volumemusic>0.00</volumemusic>
   <volumevoice>1.00</volumevoice>
   <volumeambient>1.00</volumeambient>
   <volumeui>1.00</volumeui>
@@ -44,7 +44,7 @@
   <aimassist>1</aimassist>
   <collisionassist>true</collisionassist>
   <controlmodemessages>true</controlmodemessages>
-  <radarmode>true</radarmode>
+  <radarmode>false</radarmode>
   <stopshipinmenu>true</stopshipinmenu>
   <forceshootatcursor>false</forceshootatcursor>
   <fpusecameraforward>false</fpusecameraforward>
